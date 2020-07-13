@@ -48,7 +48,7 @@ int main( int argc, char *argv[] ){
 		}
 		fclose(dest);
 		fclose(fd);
-		printf("Successfly copied files to %s.",dirname);
+		printf("Successfly copied files to %s.\n",dirname);
 	}
 	return 0;
 }
